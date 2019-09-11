@@ -1,1 +1,8 @@
 NOTES
+
+Instruction set is "arm"; i.e., "usr/src/uts/arm" (akin to "usr/src/uts/intel")
+
+The platform is "armv7a"; akin to "i86pc"
+
+Starting over, cherry-picking from existing work.  The goal is to have a single
+"unix" that can use Flattened Device Tree (FDT) files to configure the system.
